@@ -28,8 +28,11 @@
 ##
 ⚙️ 산출물
 
-기획서 링크<br> 
 
-피그마 링크<br>
+<a href ="https://docs.google.com/presentation/d/1si2UPUVSYoXAg-GIhOOEpmwXsEbF6jaaquB5TQ36d9Q/edit?pli=1#slide=id.p">기획서 링크 바로가기</a>
+<br>
 
-Demo 바로가기 링크
+<a href ="https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?type=design&node-id=0%3A1&mode=design&t=E918S0vhH0cDIHGi-1">피그마 링크 바로가기</a>
+<br>
+
+<a href = "">Demo 링크 바로가기 </a>
