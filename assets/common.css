@@ -61,12 +61,12 @@
 /* Web Font - DrukTextWide-Heavy-Trial */
 @font-face {
   font-family: "DrukTextWide-Heavy-Trial";
-  src: url("/assets/font/DrukTextWide-Heavy-Trial.otf");
+  src: url("font/DrukTextWide-Heavy-Trial.otf");
 }
 /* Web Font - DrukTextWide-Heavy-Trial */
 @font-face {
   font-family: "DrukTextWide-Super-Trial";
-  src: url("/assets/font/DrukTextWide-Super-Trial.otf");
+  src: url("font/DrukTextWide-Super-Trial.otf");
 }
 /* Web Font - DrukTextWide-Medium-Trial */
 @font-face {
