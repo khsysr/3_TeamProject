@@ -56,22 +56,22 @@
 /* Web Font - DrukTextWide-Bold-Trial */
 @font-face {
   font-family: "DrukTextWide-Bold-Trial";
-  src: url(/assets/font/DrukTextWide-Bold-Trial.otf);
+  src: url("/assets/font/DrukTextWide-Bold-Trial.otf");
 }
 /* Web Font - DrukTextWide-Heavy-Trial */
 @font-face {
   font-family: "DrukTextWide-Heavy-Trial";
-  src: url(/assets/font/DrukTextWide-Heavy-Trial.otf);
+  src: url("/assets/font/DrukTextWide-Heavy-Trial.otf");
 }
 /* Web Font - DrukTextWide-Heavy-Trial */
 @font-face {
   font-family: "DrukTextWide-Super-Trial";
-  src: url(/assets/font/DrukTextWide-Super-Trial.otf);
+  src: url("/assets/font/DrukTextWide-Super-Trial.otf");
 }
 /* Web Font - DrukTextWide-Medium-Trial */
 @font-face {
   font-family: "DrukTextWide-Medium-Trial";
-  src: url(/assets/font/DrukTextWide-Medium-Trial.otf);
+  src: url("/assets/font/DrukTextWide-Medium-Trial.otf");
 }
 
 /* Web Font - Druk-Medium-Trial */

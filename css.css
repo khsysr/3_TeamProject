@@ -7,11 +7,11 @@
 }
 @font-face {
   font-family: "DrukWide-SuperItalic-Trial";
-  src: url(./font/DrukWide-SuperItalic-Trial.otf);
+  src: url("./font/DrukWide-SuperItalic-Trial.otf");
 }
 @font-face {
   font-family: "DrukText-Bold-Trial";
-  src: url(./font/DrukText-Bold-Trial.otf);
+  src: url("./font/DrukText-Bold-Trial.otf");
 }
 
 * {
@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(images/background3.png);
+  background-image: url("images/background3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -88,7 +88,7 @@ body {
   position: relative;
   width: 240px;
   height: 400px;
-  background-image: url(./images/palm.jpeg);
+  background-image: url("./images/palm.jpeg");
   background-size: cover;
   background-position: center;
   border-radius: 15px;
@@ -100,7 +100,7 @@ body {
   font-family: "DrukWide-SuperItalic-Trial";
   font-size: 38px;
   line-height: 50px;
-  background-image: url(./images/holo.png);
+  background-image: url("./images/holo.png");
   background-size: 230px 200px;
   background-clip: text;
   -webkit-background-clip: text;
