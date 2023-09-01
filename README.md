@@ -92,11 +92,7 @@
 
 <br>
 
-## 🌟  트러블 슈팅
+## 🌟 트러블 슈팅
 
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&height=150&section=footer)
-:톱니바퀴: 산출물
-기획서 링크<br>
-피그마 링크<br>
-Demo 바로가기 링크
