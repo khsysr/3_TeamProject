@@ -1,0 +1,387 @@
+.sponsor_wrap {
+  width: 100%;
+  height: 1200px;
+  background-color: var(--black);
+  /*   background: url(../img/perfomanceBG.png);  */
+}
+
+.sponsor_inner {
+  width: 1360px;
+  height: inherit;
+  margin: auto;
+}
+
+.sponsor_heading {
+  margin-bottom: 50px;
+}
+.sponsor_heading > img {
+  margin-left: 40%;
+}
+.sponsor_heading h1 {
+  padding: 5rem 0;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.sponsor_body {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  margin: auto;
+  gap: 10px;
+  grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "i j k k";
+}
+
+.sponsor_border1 {
+  grid-area: a;
+  border-width: 10px;
+  width: 338px;
+  height: 246px;
+  background-color: #f3684b;
+}
+
+.sponsor_border1 img {
+  margin-top: 10px;
+}
+
+.sponsor_border2 {
+  grid-area: b;
+  border-width: 10px;
+  width: 338px;
+  height: 246px;
+  border: 1px solid #ffffff33;
+}
+
+.sponsor_border2 img {
+  margin-top: 70px;
+}
+.sponsor_border3 {
+  grid-area: c;
+  width: 338px;
+  height: 246px;
+  background-color: #f3684b;
+}
+
+.sponsor_border3 img {
+  margin-top: 30px;
+}
+
+.sponsor_border4 {
+  grid-area: d;
+  width: 338px;
+  height: 246px;
+  border: 1px solid #ffffff33;
+}
+.sponsor_border4 img {
+  margin-top: 60px;
+}
+.sponsor_border5 {
+  grid-area: e;
+  width: 338px;
+  height: 246px;
+  border: 1px solid #ffffff33;
+}
+.sponsor_border5 img {
+  margin-top: 50px;
+}
+.sponsor_border6 img {
+  margin-top: 15px;
+}
+
+.sponsor_border7 img {
+  margin-top: 80px;
+}
+
+.sponsor_border6 {
+  grid-area: f;
+  width: 338px;
+  height: 246px;
+  background-color: #f3684b;
+}
+.sponsor_border7 {
+  grid-area: g;
+  width: 338px;
+  height: 246px;
+  border: 1px solid #ffffff33;
+}
+.sponsor_border8 {
+  grid-area: h;
+  width: 338px;
+  height: 246px;
+  background-color: #f3684b;
+}
+
+.sponsor_border8 img {
+  margin-top: 10px;
+}
+
+.sponsor_border9 {
+  grid-area: i;
+  width: 338px;
+  height: 246px;
+  background-color: #f3684b;
+}
+.sponsor_border9 img {
+  margin-top: 40px;
+}
+.sponsor_border10 {
+  grid-area: j;
+  width: 338px;
+  height: 246px;
+  border: 1px solid #ffffff33;
+}
+.sponsor_border10 img {
+  margin-top: 40px;
+  width: 250px;
+}
+
+.sponsor_border11 video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/*  동영상 iframe */
+.sponsor_border11 {
+  border: 1px solid #ffffff33;
+  grid-area: k;
+  height: 63%;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/*  호버 */
+/* .sponsor_border1:hover,
+.sponsor_border3:hover,
+.sponsor_border6:hover,
+.sponsor_border8:hover,
+.sponsor_border9:hover
+{
+  background-color: black;
+  border: 1px solid #ffffff33;
+}
+
+
+.sponsor_border9:hover img {
+  filter: invert(100%);
+} */
+
+/* 스폰서 반응형 */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .sponsor_wrap {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 20vh;
+    background-color: var(--);
+  }
+
+  .sponsor_inner {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .sponsor_heading > img {
+    display: block;
+    width: 20vh;
+    height: 15vh;
+    margin: auto;
+  }
+
+  .sponsor_body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    gap: 0px;
+    grid-template-areas:
+      "a b c"
+      "e f g"
+      "h d i"
+      "j k k";
+
+    grid-template-columns: repeat(2, calc(33.3% - 0px));
+  }
+
+  /* 진로 */
+
+  .sponsor_border1 {
+    grid-area: a;
+    border-width: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #f3684b;
+  }
+
+  .sponsor_border1 img {
+    margin-top: 1.5vh;
+    width: 60%;
+    height: 75%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  /* spotify */
+  .sponsor_border2 {
+    grid-area: b;
+    border-width: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #9b9b9b98;
+  }
+
+  .sponsor_border2 img {
+    margin-top: 3vh;
+    width: 70%;
+    height: 50%;
+  }
+
+  /* Cass */
+  .sponsor_border3 {
+    grid-area: c;
+    width: 100%;
+    height: 100%;
+    background-color: #f3684b;
+  }
+
+  .sponsor_border3 img {
+    margin-top: 3vh;
+    width: 50%;
+    height: 50%;
+  }
+
+  /* 폭탄 */
+  .sponsor_border4 {
+    grid-area: d;
+    width: 100%;
+    height: 100%;
+  }
+  .sponsor_border4 img {
+    margin-top: 3vh;
+    width: 50%;
+    height: 50%;
+  }
+
+  /* W */
+  .sponsor_border5 {
+    grid-area: e;
+    width: 100%;
+    height: 100%;
+    color: black;
+  }
+  .sponsor_border5 img {
+    margin-top: 3vh;
+    width: 50%;
+    height: 50%;
+  }
+
+  /* LP판 */
+  .sponsor_border6 {
+    grid-area: f;
+    width: 100%;
+    height: 100%;
+    background-color: #f3684b;
+    border: 1px solid #9b9b9b98;
+  }
+  .sponsor_border6 img {
+    margin-top: 3vh;
+    width: 50%;
+    height: 50%;
+  }
+
+  /* ter */
+  .sponsor_border7 {
+    grid-area: g;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sponsor_border7 img {
+    margin-top: 4vh;
+    width: 80%;
+    height: 30%;
+  }
+
+  /* bomb */
+  .sponsor_border8 {
+    grid-area: h;
+    width: 100%;
+    height: 100%;
+    background-color: #f3684b;
+  }
+
+  .sponsor_border8 img {
+    margin-top: 1vh;
+    width: 80%;
+    height: 80%;
+  }
+
+  /* 스프라이트 */
+
+  .sponsor_border9 {
+    grid-area: i;
+    width: 100%;
+    height: 100%;
+    background-color: #f3684b;
+  }
+  .sponsor_border9 img {
+    margin-top: 1.5vh;
+    width: 60%;
+    height: 70%;
+  }
+
+  /* 유튜브 */
+  .sponsor_border10 {
+    grid-area: j;
+    width: 100%;
+    height: 100%;
+  }
+  .sponsor_border10 img {
+    margin-top: 5vh;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* 비디오 */
+  .sponsor_border11 video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  /*  동영상 iframe */
+  .sponsor_border11 {
+    border: 1px solid #ffffff33;
+    grid-area: k;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  /*  호버 */
+  /* .sponsor_border1:hover,
+  .sponsor_border3:hover,
+  .sponsor_border6:hover,
+  .sponsor_border8:hover,
+  .sponsor_border9:hover
+  {
+    background-color: black;
+    border: 1px solid #ffffff33;
+  }
+  
+  
+  .sponsor_border9:hover img {
+    filter: invert(100%);
+  } */
+}

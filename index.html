@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CDN for Font-Awesome -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+    <!-- Header & Footer CSS -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/lineup.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/WaterBomb.css" />
+    <link rel="stylesheet" href="css/Performance.css" />
+    <link rel="stylesheet" href="css/Sponsor.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo/favicon.jpg" type="image/x-icon" />
+    <title>WATERBOMB 2023:: Water Variation Dance Festival</title>
+  </head>
+  <body>
+    <!-- Top Btn -->
+    <a href="#" id="top_btn"></a>
+    <!-- ticket Btn -->
+    <a href="Map.html" id="ticket_btn"></a>
+    <!-- Header -->
+    <header>
+      <div class="inner">
+        <nav id="gnb">
+          <ul>
+            <li>Tickets</li>
+            <li>Line up</li>
+            <li>Experience</li>
+            <li id="logo">
+              <a href="index.html">
+                <img src="img/logo/logo.svg" alt="Logo_img" />
+              </a>
+            </li>
+            <li>Archive</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+          </ul>
+        </nav>
+        <menu
+          ><div class="inner">
+            <ul class="header_submenu">
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/ticket.png"
+              >
+                <ul>
+                  <li><a href="Map.html">Reservation</a></li>
+                  <li><a href="#none">Reference</a></li>
+                  <li><a href="#none">Precautions</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/linup2.png"
+              >
+                <ul>
+                  <li><a href="#none">KOREA</a></li>
+                  <li><a href="#none">JAPAN</a></li>
+                  <li><a href="#none">BANGKOK</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/experience.png"
+              >
+                <ul>
+                  <li><a href="#none">KOREA</a></li>
+                  <li><a href="#none">JAPAN</a></li>
+                  <li><a href="#none">THAILAND</a></li>
+                </ul>
+              </li>
+              <li id="header_img_box">
+                <div src="" alt="Header_Menu_Img"></div>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/archive2.png"
+              >
+                <ul>
+                  <li><a href="#none">Introduction</a></li>
+                  <li><a href="#none">Program</a></li>
+                  <li><a href="#none">NFT</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver contact_wrap"
+                data-image="./img/header_img/contact2.png"
+              >
+                <ul>
+                  <li>
+                    <a href="#none"><button>CONTACT</button></a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/faq2.png"
+              >
+                <ul>
+                  <li><a href="#none">FAQ( KOR )</a></li>
+                  <li><a href="#none">FAQ( ENG )</a></li>
+                  <li><a href="#none">Cautions</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div></menu
+        >
+      </div>
+    </header>
+    <!-- Res_Header -->
+    <aside id="hbg">
+      <a href="index.html">
+        <img src="img/logo/logo.svg" alt="" />
+      </a>
+      <div class="hbg"></div>
+    </aside>
+    <menu id="res_menu">
+      <section id="res_header">
+        <div class="logo">
+          <img src="img/logo/logo_orange.png" alt="" />
+        </div>
+        <div class="res_closer"></div>
+      </section>
+      <section id="res_main">
+        <div class="res_header_wrap">
+          <input type="radio" name="res_Menu" id="ticket" />
+          <label class="res_menu_item" for="ticket">Tickets</label>
+          <ul>
+            <li><a href="Map.html">Reservation</a></li>
+            <li><a href="#none">Reference</a></li>
+            <li><a href="#none">Precautions</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="lineup" />
+          <label class="res_menu_item" for="lineup">Line Up</label>
+          <ul>
+            <li><a href="#none">Korea</a></li>
+            <li><a href="#none">Japan</a></li>
+            <li><a href="#none">Bangkok</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="exp" />
+          <label class="res_menu_item" for="exp">Experience</label>
+          <ul>
+            <li><a href="#none">Korea</a></li>
+            <li><a href="#none">Japan</a></li>
+            <li><a href="#none">Thailand</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="archieve" />
+          <label class="res_menu_item" for="archieve">Archive</label>
+          <ul>
+            <li><a href="#none">Introduction</a></li>
+            <li><a href="#none">Program</a></li>
+            <li><a href="#none">NFT</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="contact" />
+          <label class="res_menu_item" for="contact">Contact</label>
+          <ul id="res_contact">
+            <li>
+              <a href="#none"><button>CONTACT</button></a>
+            </li>
+          </ul>
+          <input type="radio" name="res_Menu" id="faq" />
+          <label class="res_menu_item" for="faq">FAQ</label>
+          <ul>
+            <li><a href="#none">FAQ ( KOR )</a></li>
+            <li><a href="#none">FAQ ( ENG )</a></li>
+            <li><a href="#none">Cautions</a></li>
+          </ul>
+        </div>
+      </section>
+    </menu>
+    <!-- Main Visual -->
+    <section class="main-visual">
+      <video autoplay muted loop>
+        <source
+          src="./assets/video/waterbomb-main.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+    <!-- Section - Line up -->
+    <section class="line_up">
+      <div class="inner">
+        <div class="line_up_title">
+          <img id="lineup_title" src="img/LineUp.png" alt="" />
+        </div>
+        <section id="delta_slider">
+          <article class="move_slider"></article>
+        </section>
+      </div>
+    </section>
+    <!-- Section - LP Boards -->
+    <section class="sectionLp">
+      <div class="layout">
+        <div class="section article">
+          <div class="watcher">
+            <span class="block-watcher__icon-wrap">
+              <svg
+                class="block-watcher__icon"
+                width="1132"
+                height="1024"
+                viewBox="0 0 1132 1024"
+              >
+                <path
+                  fill="#040507"
+                  d="M626.121 610.263c0 225.931-138.927 409.083-310.303 409.083s-310.303-183.153-310.303-409.083c0-225.931 138.927-409.083 310.303-409.083s310.303 183.153 310.303 409.083z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  d="M316.336 1024c-173.511 0-314.44-185.923-314.44-414.514s141.188-414.514 314.44-414.514 314.44 185.923 314.44 414.514-140.93 414.514-314.44 414.514zM316.336 206.61c-167.046 0-303.063 180.752-303.063 403.135s136.017 402.877 303.063 402.877 285.479-185.923 285.479-408.308-118.174-397.705-285.479-397.705z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  d="M33.442 322.457l4.913-29.996c0.517-2.586 10.602-63.095 51.2-128.259 37.754-60.25 112.743-149.463 241.778-164.202l-2.069 24.825c-100.073 11.637-177.648 60.25-230.659 144.808-22.239 35.167-35.167 69.818-42.149 93.35 17.584-26.117 48.355-66.974 90.764-104.727 92.057-82.231 195.233-96.97 300.477-72.145l1.293 18.359c-103.434-24.307-204.024-19.652-294.788 61.285-68.008 60.51-105.761 129.293-106.020 130.069l-14.739 26.634z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-pupils move"
+                  d="M252.464 505.794c-4.137 23.532-6.464 48.355-6.464 73.956 0 53.786 9.826 103.694 26.376 145.325l158.513-73.698-116.881 144.55c25.859 30.254 57.665 47.839 91.798 47.839 88.178 0 159.806-118.174 159.806-264.016 0-25.341-2.069-49.908-6.206-73.18-62.836-5.948-184.372-13.188-306.941-0.776z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-eye-line-top move"
+                  d="M603.624 468.299c-154.118-49.908-343.661-17.584-345.988-17.584 0 0 169.891-76.024 347.798 6.206l-1.811 11.377z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-eye-line-bottom move"
+                  d="M9.135 551.047c0 0 410.635-77.834 599.402-22.497l-5.171-27.669c0 0-295.823-54.044-588.8 30.254l-5.431 19.912z"
+                ></path>
+                <path
+                  fill="#040507"
+                  d="M1125.193 610.263c0 225.931-138.927 409.083-310.303 409.083s-310.303-183.153-310.303-409.083c0-225.931 138.927-409.083 310.303-409.083s310.303 183.153 310.303 409.083z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  d="M815.664 1024c-173.511 0-314.44-185.923-314.44-414.514s140.93-414.514 314.44-414.514 314.44 185.923 314.44 414.514-141.188 414.514-314.44 414.514zM815.664 206.61c-167.046 0-303.063 180.752-303.063 403.135s136.017 402.877 303.063 402.877 285.479-185.923 285.479-408.308-118.433-397.705-285.479-397.705z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  d="M564.32 322.457l4.913-29.996c0.517-2.586 10.602-63.095 51.2-128.259 37.754-60.25 112.743-149.463 241.778-164.202l-2.069 24.825c-100.073 11.377-177.648 59.992-230.659 144.291-22.239 35.167-35.167 69.818-42.149 93.35 17.584-26.117 48.355-66.974 90.764-104.727 92.057-82.231 195.233-96.97 300.477-72.145l1.293 18.359c-103.434-24.307-204.024-19.652-294.788 61.285-68.008 60.51-105.761 129.293-106.020 130.069l-14.739 27.152z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-eye-line-top"
+                  d="M1102.695 468.299c-154.118-49.908-343.661-17.584-345.988-17.584 0 0 169.891-76.024 347.798 6.206l-1.811 11.377z"
+                ></path>
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-eye-line-bottom"
+                  d="M508.206 551.047c0 0 410.635-77.834 599.402-22.497l-5.171-27.669c0 0-295.823-54.044-588.8 30.254l-5.431 19.912z"
+                ></path>
+              </svg>
+              <svg
+                class="block-watcher__icon"
+                width="1132"
+                height="1024"
+                viewBox="0 0 1132 1024"
+              >
+                <path
+                  fill="#BFBFBF"
+                  class="js-block-watcher-pupils move"
+                  d="M751.794 504.76c-4.137 23.79-6.464 48.873-6.464 74.99 0 53.786 9.826 103.694 26.376 145.325l158.513-73.698-116.881 144.55c25.859 30.254 57.665 47.839 91.798 47.839 88.178 0 159.806-118.174 159.806-264.016 0-27.152-2.586-53.528-6.982-78.093-94.901-11.637-227.814-3.62-306.166 3.103z"
+                ></path>
+              </svg>
+            </span>
+            <span class="block-watcher__title">TICKETS</span>
+          </div>
+          <div class="lp-board">
+            <div class="lp-wrap">
+              <div class="lp-round"></div>
+              <div class="lp"></div>
+            </div>
+            <div class="flex-list-wrap">
+              <ul class="list">
+                <li class="list-item">
+                  <div
+                    class="img ripple"
+                    style="
+                      background-image: url('https://i.postimg.cc/cJ97NjLv/img-cont02.jpg');
+                    "
+                  ></div>
+                  <div class="txt-area" id="KOREA-list">
+                    <h3 class="title">
+                      WATERBOMB<br /><span class="korea">KOREA</span> TOUR 2023
+                    </h3>
+                    <p class="des kr">
+                      9개 도시로 확장된 워터밤 전국 투어!<br />각 도시의 일정을
+                      확인하고 티켓을 미리 확보하세요!
+                    </p>
+                    <p class="des en">
+                      <strong>Water Bomb</strong> Korea tour extended to
+                      <strong>9</strong> cities!<br />Check the
+                      <strong>schedule</strong> for each city and secure your
+                      tickets in advance!
+                    </p>
+                    <div class="btn-wrap">
+                      <a
+                        href="http://waterbombfestival.com/ticket/"
+                        class="btn btn-round-fill"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">TICKET</span>
+                      </a>
+                      <a
+                        href="http://waterbombfestival.com/seoul-sns-page/"
+                        class="btn btn-round-border"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">SOCIAL MEDIA</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-item revert">
+                  <div
+                    class="img ripple"
+                    style="
+                      background-image: url('https://i.postimg.cc/8CBdn5qm/img-cont01.jpg');
+                    "
+                  ></div>
+                  <div class="txt-area">
+                    <h3 class="title">
+                      WATERBOMB<br /><span class="japan">JAPAN</span> TOUR 2023
+                    </h3>
+                    <p class="des en1">Osaka, Nagoya, Tokyo</p>
+                    <p class="des en">
+                      The global music festival
+                      <strong>"Water Bomb"&nbsp;</strong>lands in
+                      <strong>3</strong> cities in Japan.<br />
+                      Powerful performance of the hottest artists and Thrilling
+                      water fighting! Get ready for an unforgettable summer with
+                      Water Bomb!
+                    </p>
+                    <div class="btn-wrap" id="JAPAN-btn">
+                      <a
+                        href="http://waterbombfestival.com/ticket/"
+                        class="btn btn-round-fill"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">TICKET</span>
+                      </a>
+                      <a
+                        href="http://waterbombfestival.com/japan-sns-page/"
+                        class="btn btn-round-border"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">SOCIAL MEDIA</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-item">
+                  <div
+                    class="img ripple"
+                    style="
+                      background-image: url('https://i.postimg.cc/tgM6cxBP/img-cont03.jpg');
+                    "
+                  ></div>
+                  <div class="txt-area" id="BANKKOK-list">
+                    <h3 class="title">
+                      WATERBOMB <span class="bangkok">BANGKOK</span> TOUR 2023
+                    </h3>
+                    <p class="des en1">13-14 April 2023, Thunderdome Stadium</p>
+                    <p class="des en">
+                      13-14 April 2023,
+                      <strong>"Thunderdome Stadium"</strong> Waterbomb Bangkok
+                      was really awesome! <strong>Thank you.</strong> See you
+                      next time!
+                    </p>
+                    <div class="btn-wrap">
+                      <a
+                        href="http://waterbombfestival.com/ticket/"
+                        class="btn btn-round-fill"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">TICKET</span>
+                      </a>
+                      <a
+                        href="http://waterbombfestival.com/bangkok-sns-page-2/"
+                        class="btn btn-round-border"
+                      >
+                        <span class="hover"></span>
+                        <span class="btn-title">SOCIAL MEDIA</span>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="waterGun">
+          <div class="splash">
+            <!-- <img src="./img/splashs.png" alt="SPLAH">
+                    <h1>EXIT!<br>ENERGY!<br>EXPERIENCE!</h1> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - WaterBomb -->
+    <section class="wrap waterbomb_wrap">
+      <div class="waterBomb">
+        <div class="water_heading">
+          <div class="waterGun2">
+            <div class="splash">
+              <img src="./img/waterSplash.png" alt="SPLAH" />
+            </div>
+            <div class="content7">
+              <h3>WATERBOMB</h3>
+              <h3>WATERBOMB</h3>
+              <img src="./img/OMB-white.png" alt="ERB" />
+            </div>
+          </div>
+          <div class="content" data-aos="flip-down" data-aos-delay="800"></div>
+        </div>
+        <div class="Box_Wrap">
+          <div class="water_Box" data-aos="flip-left" data-aos-delay="500">
+            <div class="box_heading">
+              <h1>EXIT</h1>
+              <h2>더운 일상으로부터의 탈출</h2>
+            </div>
+            <div class="box_text">
+              <img src="./img/water01.png" alt="" />
+              <p>
+                시원한 워터 파이팅과 멋진 뮤지션들의 공연을 즐기며 도시로부터
+                탈출하세요.<br /><br />
+                Find your escape from the summer heat surrounded by blasting
+                water cannons and chilling live performances
+              </p>
+            </div>
+          </div>
+          <div class="water_Box" data-aos="flip-left" data-aos-delay="700">
+            <div class="box_heading">
+              <h1>ENERGY</h1>
+              <h2>당신의 에너지와 열정</h2>
+            </div>
+            <div class="box_text">
+              <img src="./img/water02.png" alt="" />
+              <p>
+                넘치는 당신의 에너지를 멋지게 표현하여 열정적이고 즐거운
+                플레이어가 되어보세요. 정말 즐거운 하루를 보내고, 친구를 만날 수
+                있습니다.<br /><br />
+                Explode your passion and energy at our epic water battle ground
+                with your team. Gear up and fire away!
+              </p>
+            </div>
+          </div>
+          <div class="water_Box" data-aos="flip-left" data-aos-delay="900">
+            <div class="box_heading">
+              <h1>EXPERIENCE</h1>
+              <h2>당신을 기다리는 새로운 경험</h2>
+            </div>
+            <div class="box_text">
+              <img src="./img/water03.png" alt="" />
+              <p>
+                워터밤은 뮤직 페스티벌의 새로운 패러다임을 제시하였습니다. 음악,
+                예능, 물놀이를 결합하여 관객과 아티스트가 함께 공연을 즐기며
+                만들어가는 짜릿하고 특별한 경험을 선사합니다.
+                <br /><br />
+                Experience a revolutionizing paradigm of music festival where
+                you get to become a player and a creator of the entire
+                experience: entertainment, performances, and water-battle.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - Performance -->
+    <!-- Swiper -->
+    <section class="swiper_wrap">
+      <img src="./img/performance_heading.png" alt="" />
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/Perfomance08.png" />
+            <div class="swiper_text">
+              <h2>K-POP</h2>
+              <p>Overwhelming Visuals and Fancy Live</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance09.png" />
+            <div class="swiper_text">
+              <h2>HIP-HOP</h2>
+              <p>Trendy and Powerful Charismamamamamam</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance10.png" />
+            <div class="swiper_text">
+              <h2>DANCE MUSIC</h2>
+              <p>Explosive Dance Music from KOREAN DJCharismamamamam</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance02.png" />
+            <div class="swiper_text">
+              <h2>DANCE MUSIC</h2>
+              <p>Explosive Dance Music from KOREAN DJ</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance03.png" />
+            <div class="swiper_text">
+              <h2>PERFORMANCE</h2>
+              <p>Powerful Performance with Bursting Tension</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance04.png" />
+            <div class="swiper_text">
+              <h2>HIP-HOP</h2>
+              <p>Trendy and Powerful Charismamamamamam</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance05.png" />
+            <div class="swiper_text">
+              <h2>PERFORMANCE</h2>
+              <p>Powerful Performance with Bursting Tension</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance06.png" />
+            <div class="swiper_text">
+              <h2>PERFORMANCE</h2>
+              <p>Powerful Performance with Bursting Tension</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Perfomance07.png" />
+            <div class="swiper_text">
+              <h2>K-POP</h2>
+              <p>Overwhelming Visuals and Fancy Live</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sponsor 영역 -->
+    <section class="sponsor_wrap">
+      <div class="sponsor_inner">
+        <div class="sponsor_heading">
+          <img src="./img/sponsor_heading.png" alt="" />
+        </div>
+        <div class="sponsor_body">
+          <div class="sponsor_border1">
+            <img src="./img/Sponsor/img_jinro 1.png" alt="" />
+          </div>
+          <div class="sponsor_border2">
+            <img src="./img/Sponsor/spoti.png" alt="" />
+          </div>
+          <div class="sponsor_border3">
+            <img src="./img/Sponsor/cass.png" alt="" />
+          </div>
+          <div class="sponsor_border4">
+            <img src="./img/Sponsor/game-icons_fire-bomb.png" alt="" />
+          </div>
+          <div class="sponsor_border5">
+            <img src="./img/Sponsor/w.png" alt="" />
+          </div>
+          <div class="sponsor_border6">
+            <img src="./img/Sponsor/LP.png" alt="" />
+          </div>
+          <div class="sponsor_border7">
+            <img src="./img/Sponsor/ter.png" alt="" />
+          </div>
+          <div class="sponsor_border8">
+            <img src="./img/Sponsor/bombTT.png" alt="" />
+          </div>
+          <div class="sponsor_border9">
+            <img src="./img/Sponsor/sprite.png" alt="" />
+          </div>
+          <div class="sponsor_border10">
+            <img src="./img/Sponsor/youtube 1.png" alt="" />
+          </div>
+          <div class="sponsor_border11">
+            <video
+              autoplay
+              muted
+              loop
+              src="./img/워터밤 서울 2023, 불태웠다!🔥.mp4"
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="inner">
+        <ul id="footer_sns_list">
+          <li>
+            <!-- 페이스북 -->
+            <a
+              href="https://www.facebook.com/Waterbomb.Worldwide"
+              target="_blank"
+              ><i class="fa fa-facebook-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <!-- 인스타그램 -->
+            <a
+              href="https://www.instagram.com/waterbomb_official/"
+              target="_blank"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <!-- 유튜브 -->
+            <a
+              href="https://www.youtube.com/playlist?list=PL71SUA2xYzH1NLaM_y6FRPGeaAEm1I2q9"
+              target="_blank"
+              ><i class="fa fa-youtube-play" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+        <p>
+          &copy;2015-2023 WaterBomb. All Rights Reserved. (주)볼륨유닛
+          사업자번호 691-88-00390
+        </p>
+      </div>
+    </footer>
+    <!-- JavaScripts -->
+    <script src="js/header.js"></script>
+    <script src="js/lineup_lists.js"></script>
+    <script src="js/lineup_slider.js"></script>
+    <!-- JQUERY CDN JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script>
+      function changeImageSources() {
+        const screenWidth = window.innerWidth,
+          images = document.querySelectorAll(".img");
+
+        /** 이미지 지정(Section - LP Boards) */
+        images.forEach((image, index) => {
+          let newImageUrl;
+          if (screenWidth <= 1080) {
+            newImageUrl = `./assets/img/img_cont0${index + 1}.png`;
+          } else {
+            newImageUrl = image.style.backgroundImage.replace(
+              /url\(['"]?(.*?)['"]?\)/i,
+              "$1"
+            );
+            console.log(newImageUrl);
+          }
+
+          image.style.backgroundImage = `url('${newImageUrl}')`;
+        });
+      }
+
+      function runJavaScript() {
+        $(".ripple").ripples({
+          resolution: 256, // 렌더링 값이 클수록 잔물결 효과가 느리게 전파
+          perturbance: 0.05, // 잔물경 굴절 강도. 0은 굴절 없음
+        });
+        const handleScroll = () => {
+          const scrollAmount = window.scrollY,
+            rotateAmount = scrollAmount / 5,
+            lpRound = document.querySelector(".lp-round"),
+            lp = document.querySelector(".lp");
+
+          lpRound.style.transform = `rotate(${rotateAmount}deg)`;
+          lp.style.transform = `translate(-50%, -50%) rotate(${rotateAmount}deg)`;
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        const handleMouseMove = (event) => {
+          const { clientX, clientY } = event,
+            mousePosition = {
+              x: clientX,
+              y: clientY,
+            };
+
+          const pupilMovement = {
+            x: (mousePosition.x / window.innerWidth - 0.5) * 50,
+            y: (mousePosition.y / window.innerHeight - 0.5) * 50,
+          };
+
+          const eyeLineMovement = {
+            x: (mousePosition.x / window.innerWidth - 0.5) * 30,
+            y: (mousePosition.y / window.innerHeight - 0.5) * 30,
+          };
+
+          const pupils = document.querySelectorAll(".js-block-watcher-pupils"),
+            eyeLines = document.querySelectorAll(
+              ".js-block-watcher-eye-line-top, .js-block-watcher-eye-line-bottom"
+            );
+
+          pupils.forEach((pupil) => {
+            pupil.style.transform = `translate3d(${pupilMovement.x}%, ${pupilMovement.y}%, 0)`;
+          });
+          eyeLines.forEach((eyeLine) => {
+            eyeLine.style.transform = `translate3d(${eyeLineMovement.x}%, ${eyeLineMovement.y}%, 0)`;
+          });
+        };
+
+        document.addEventListener("mousemove", handleMouseMove);
+      }
+
+      function checkResolution() {
+        if (window.innerWidth >= 1080) {
+          runJavaScript();
+        } else if (window.innerWidth < 1080) {
+          changeImageSources();
+        }
+      }
+
+      function handleResize() {
+        console.log(
+          "Window resized:",
+          window.innerWidth,
+          "x",
+          window.innerHeight
+        );
+        checkResolution();
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        checkResolution();
+        window.addEventListener("resize", handleResize);
+      });
+    </script>
+    <!-- Swiper JS CDN -->
+    <script src="./js/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+    <!-- Header & Footer CSS -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- Tickets CSS -->
+    <link rel="stylesheet" href="css.css" />
+    <!-- Double Tab CSS -->
+    <link rel="stylesheet" href="css/double_tab.css" />
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="css/Map.css" />
+    <!-- API KEY Value -->
+    <script
+      type="text/javascript"
+      src="https:/oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=jepooui4on"
+    ></script>
+    <title>Double Tab</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="inner">
+        <nav id="gnb">
+          <ul>
+            <li>Tickets</li>
+            <li>Line up</li>
+            <li>Experience</li>
+            <li id="logo">
+              <a href="index.html">
+                <img src="img/logo/logo.svg" alt="Logo_img" />
+              </a>
+            </li>
+            <li>Archive</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+          </ul>
+        </nav>
+        <menu
+          ><div class="inner">
+            <ul class="header_submenu">
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/ticket.png"
+              >
+                <ul>
+                  <li><a href="Map.html">Reservation</a></li>
+                  <li><a href="#none">Reference</a></li>
+                  <li><a href="#none">Precautions</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/linup2.png"
+              >
+                <ul>
+                  <li><a href="#none">KOREA</a></li>
+                  <li><a href="#none">JAPAN</a></li>
+                  <li><a href="#none">BANGKOK</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/experience.png"
+              >
+                <ul>
+                  <li><a href="#none">KOREA</a></li>
+                  <li><a href="#none">JAPAN</a></li>
+                  <li><a href="#none">THAILAND</a></li>
+                </ul>
+              </li>
+              <li id="header_img_box">
+                <div src="" alt="Header_Menu_Img"></div>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/archive2.png"
+              >
+                <ul>
+                  <li><a href="#none">Introduction</a></li>
+                  <li><a href="#none">Program</a></li>
+                  <li><a href="#none">NFT</a></li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver contact_wrap"
+                data-image="./img/header_img/contact2.png"
+              >
+                <ul>
+                  <li>
+                    <a href="#none"><button>CONTACT</button></a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="header_img_saver"
+                data-image="./img/header_img/faq2.png"
+              >
+                <ul>
+                  <li><a href="#none">FAQ( KOR )</a></li>
+                  <li><a href="#none">FAQ( ENG )</a></li>
+                  <li><a href="#none">Cautions</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div></menu
+        >
+      </div>
+    </header>
+    <!-- Res_Header -->
+    <aside id="hbg">
+      <a href="index.html">
+        <img src="img/logo/logo.svg" alt="" />
+      </a>
+      <div class="hbg"></div>
+    </aside>
+    <menu id="res_menu">
+      <section id="res_header">
+        <div class="logo">
+          <img src="img/logo/logo_black.png" alt="" />
+        </div>
+        <div class="res_closer"></div>
+      </section>
+      <section id="res_main">
+        <div class="res_header_wrap">
+          <input type="radio" name="res_Menu" id="ticket" />
+          <label class="res_menu_item" for="ticket">Tickets</label>
+          <ul>
+            <li><a href="Map.html">Reservation</a></li>
+            <li><a href="#none">Reference</a></li>
+            <li><a href="#none">Precautions</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="lineup" />
+          <label class="res_menu_item" for="lineup">Line Up</label>
+          <ul>
+            <li><a href="#none">Korea</a></li>
+            <li><a href="#none">Japan</a></li>
+            <li><a href="#none">Bangkok</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="exp" />
+          <label class="res_menu_item" for="exp">Experience</label>
+          <ul>
+            <li><a href="#none">Korea</a></li>
+            <li><a href="#none">Japan</a></li>
+            <li><a href="#none">Thailand</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="archieve" />
+          <label class="res_menu_item" for="archieve">Archieve</label>
+          <ul>
+            <li><a href="#none">Introduction</a></li>
+            <li><a href="#none">Program</a></li>
+            <li><a href="#none">NFT</a></li>
+          </ul>
+          <input type="radio" name="res_Menu" id="contact" />
+          <label class="res_menu_item" for="contact">Contact</label>
+          <ul id="res_contact">
+            <li>
+              <a href="#none"><button>CONTACT</button></a>
+            </li>
+          </ul>
+          <input type="radio" name="res_Menu" id="faq" />
+          <label class="res_menu_item" for="faq">FAQ</label>
+          <ul>
+            <li><a href="#none">FAQ ( KOR )</a></li>
+            <li><a href="#none">FAQ ( ENG )</a></li>
+            <li><a href="#none">Cautions</a></li>
+          </ul>
+        </div>
+      </section>
+    </menu>
+    <!-- Main Content -->
+    <section class="inner" id="main_inner">
+      <!-- Clicker Ticket -->
+      <div class="container">
+        <div class="ticket_div">
+          <div class="ticket-large" id="large-ticket">
+            <h1>WATER BOMB</h1>
+            <div class="icon31">
+              <img src="./images/icon31-ver2.png" alt="#" />
+            </div>
+            <div class="waterbomb2">
+              <img src="./images/4xwaterbomb2X2.png" alt="#" />
+              <!-- <img src="/images/waterbomb2.png" alt="#" /> -->
+            </div>
+            <div class="line">
+              <img src="./images/2pxLine.png" alt="#" />
+            </div>
+          </div>
+          <div class="ticket-small" id="small-ticket">
+            <div class="best-container">
+              <img src="./images/best.png" alt="#" />
+              <div class="summer">SUMMER BEST EXPERIENCE</div>
+            </div>
+            <div class="qr-code">
+              <img src="./images/qrcode.png" alt="#" />
+            </div>
+            <div class="rainbow">
+              <img src="./images/rainbow.png" alt="#" />
+            </div>
+            <div class="bottom">
+              <img src="./images/bottom.png" alt="#" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal_content">
+          <section class="tab_wrap">
+            <nav id="country">
+              <ul>
+                <li>
+                  <a
+                    href="#tab_korea"
+                    data-poster="img/double_tab/kor_poster.jpg"
+                    class="tab_mover"
+                    data-place="seoul"
+                  >
+                    KOREA
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#tab_japan"
+                    data-poster="img/double_tab/jap_poster.jpg"
+                    class="tab_mover"
+                    data-place="japan"
+                  >
+                    JAPAN
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#tab_bangkok"
+                    data-poster="img/double_tab/bang_poster.png"
+                    class="tab_mover"
+                    data-place="bangkok"
+                  >
+                    BANGKOK
+                  </a>
+                </li>
+                <a href="#none" id="closer_btn"></a>
+              </ul>
+            </nav>
+            <section id="tab_desc_big">
+              <img
+                id="desc_poster"
+                src="img/double_tab/kor_poster.jpg"
+                alt="Main_Poster"
+              />
+              <section class="location">
+                <article class="tab_item" id="tab_korea">
+                  <nav class="little_tab">
+                    <ul>
+                      <li>
+                        <a href="#little_seoul" class="small_mover">SEOUL</a>
+                      </li>
+                      <li>
+                        <a href="#little_suwon" class="small_mover">SUWON</a>
+                      </li>
+                      <li>
+                        <a href="#little_daejeon" class="small_mover"
+                          >DAEJEON</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <div id="little_seoul" class="small_item acitve">
+                    <p>날짜: 2023.07.15 ~ 2023.07.16</p>
+                    <p>장소: 서울 중구 세종대로 40</p>
+                    <p>시간: 09:00 ~ 17:00</p>
+                    <p>가격: 100,000 원</p>
+                  </div>
+                  <div id="little_suwon" class="small_item">
+                    <p>날짜: 2023.07.22 ~ 2023.07.23</p>
+                    <p>장소: 경기 수원시 장안구 영화동 320-2</p>
+                    <p>시간: 11:00 ~ 19:00</p>
+                    <p>가격: 70,000 원</p>
+                  </div>
+                  <div id="little_daejeon" class="small_item">
+                    <p>날짜: 2023.09.02 ~ 2023.09.03</p>
+                    <p>장소: 대전 서구 대덕대로 182 오라클빌딩 3층</p>
+                    <p>시간: 10:00 ~ 18:00</p>
+                    <p>가격: 85,000 원</p>
+                  </div>
+                </article>
+                <article class="tab_item" id="tab_japan">
+                  <nav class="little_tab">
+                    <ul>
+                      <li>
+                        <a
+                          href="#little_japan"
+                          class="small_mover big_menu_mover"
+                          >NAGOYA</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <div id="little_japan" class="small_item">
+                    <p>Date: 2023.08.12 ~ 2023.08.13</p>
+                    <p>Place: 1-11-1 Higashisakura, Higashi-Ku</p>
+                    <p>Time: 11:00 ~ 19:00</p>
+                    <p>Price: &#165; 7,000</p>
+                  </div>
+                </article>
+                <article class="tab_item" id="tab_bangkok">
+                  <nav class="little_tab">
+                    <ul>
+                      <li>
+                        <a
+                          href="#little_bangkok"
+                          class="small_mover big_menu_mover"
+                          >BANGKOK</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <div id="little_bangkok" class="small_item">
+                    <p>Date: 2023.07.15 ~ 2023.07.16</p>
+                    <p>Place: 203 Suan Sayam Rd, Khan Na Yao</p>
+                    <p>Time: 09:00 ~ 17:00</p>
+                    <p>Price: &#3647; 1,500</p>
+                  </div>
+                </article>
+                <!-- 전체 맵 영역 -->
+                <div class="Map_Wrap">
+                  <div id="map" style="width: 100%; height: 240px"></div>
+                  <!-- 모달 영역 -->
+                  <div id="modal">
+                    <div class="modal-content">
+                      <h1>WaterBomb <em>in Seoul</em></h1>
+                      <div class="modal_text">
+                        <h3>주소 : 대전광역시 서구 둔산동</h3>
+                        <h4>공연시간 정보 : 2023년 08월 26일(토) 12시</h4>
+                        <br />
+                        <div class="modal_notice">
+                          <p>
+                            공지사항<br />
+                            * 매수제한 : 1인 4매<br />
+                            * 본 티켓은 각 회차의 티켓 매진 시 다음 회차의
+                            티켓이 오픈됩니다.<br />
+                            * 본 공연은 만 19세 이상 관람가입니다.<br />
+                            * 입장 시 성인 인증을 위한 본인의 실물 신분증을 필히
+                            지참해 주셔야 합니다.<br />
+                            * 본 티켓은 QR코드 티켓이며, 예매 시 입력한 휴대전화
+                            번호로 일괄 발송됩니다.<br />
+                            * 공연과 관련된 모든 정보는 공식 인스타그램 및
+                            홈페이지를 통해 안내됩니다.<br />
+                            * 티켓 예매 전, 필히 공연 상세 사항을 확인해주시기
+                            바랍니다.<br />
+                            * 티켓 예매는 본 내용을 모두 확인하였으며, 이에
+                            동의한 것으로 간주됩니다.
+                          </p>
+                        </div>
+                      </div>
+                      <button id="close-modal">닫기</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Text Slider -->
+    <div class="text-slider">
+      <div class="slide-track">
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/lp30.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/smile1.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/dice.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/icon_watcher.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/lp30-water.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/smile5.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <!-- <img src="/images/thumup-white.png" alt="#"> -->
+          <img src="./images/ticket-black.png" alt="" />
+        </div>
+        <div class="slide" id="starter">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+        <div class="icon">
+          <img src="./images/icon_watcher2.png" alt="#" />
+        </div>
+        <div class="slide">
+          WATERBOMB WORLD TOUR 2023 SUMMER BEST EXPERIENCE, THE ONLY REASON TO
+          WAIT FOR SUMMER
+        </div>
+      </div>
+    </div>
+    <!-- JavaScripts -->
+    <script src="js/header.js"></script>
+    <script src="js.js"></script>
+    <script src="js/double_tab.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>

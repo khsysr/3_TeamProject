@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&family=Rubik+Wet+Paint&display=swap");
+:root {
+  --black: #020715;
+  --point_blue: #8dcafb;
+  --point_cyam: #8afefb;
+  --point_yellow: #fff500;
+}
+
+/* LushHandwritten-Bold */
+@font-face {
+  font-family: LushHandwritten-Bold;
+  src: url(./font/LushHandwritten-Bold.otf);
+}
+/* Web Font - DrukWide-Medium-Trial */
+@font-face {
+  font-family: "DrukWide-Medium-Trial";
+  src: url(./font/DrukWide-Medium-Trial.otf);
+}
+
+/* Web Font - DrukWide-Bold-Trial */
+@font-face {
+  font-family: "DrukWide-Bold-Trial";
+  src: url(./font/DrukWide-Bold-Trial.otf);
+}
+/* Web Font - DrukWide-Heavy-Trial */
+@font-face {
+  font-family: DrukWide-Heavy-Trial;
+  src: url(./font/DrukWide-Heavy-Trial.otf);
+}
+/* Web Font - DrukWide-Super-Trial */
+@font-face {
+  font-family: DrukWide-Super-Trial;
+  src: url(./font/DrukWide-Super-Trial.otf);
+}
+/* Web Font - DrukCond-Super-Trial.otf */
+@font-face {
+  font-family: DrukCond-Super-Trial;
+  src: url(./font/DrukCond-Super-Trial.otf);
+}
+/* Web Font - Gordita-Medium */
+@font-face {
+  font-family: Gordita-Medium;
+  src: url(./font/Gordita-Medium.otf);
+}
+/* Web Font - Gordita-Bold */
+@font-face {
+  font-family: Gordita-Bold;
+  src: url(./font/Gordita-Bold.otf);
+}
+/* Web Font - Gordita-Regular */
+@font-face {
+  font-family: Gordita-Regular;
+  src: url(./font/Gordita-Regular.otf);
+}
+/* Web Font - DrukTextWide-Bold-Trial */
+@font-face {
+  font-family: "DrukTextWide-Bold-Trial";
+  src: url(/assets/font/DrukTextWide-Bold-Trial.otf);
+}
+/* Web Font - DrukTextWide-Heavy-Trial */
+@font-face {
+  font-family: "DrukTextWide-Heavy-Trial";
+  src: url(/assets/font/DrukTextWide-Heavy-Trial.otf);
+}
+/* Web Font - DrukTextWide-Heavy-Trial */
+@font-face {
+  font-family: "DrukTextWide-Super-Trial";
+  src: url(/assets/font/DrukTextWide-Super-Trial.otf);
+}
+/* Web Font - DrukTextWide-Medium-Trial */
+@font-face {
+  font-family: "DrukTextWide-Medium-Trial";
+  src: url(/assets/font/DrukTextWide-Medium-Trial.otf);
+}
+
+/* Web Font - Druk-Medium-Trial */
+/* @font-face {
+  font-family: "Druk-Medium-Trial";
+  src: url(./font/Druk-Medium-Trial.otf );
+} */
+
+/* Web Font - DrukText-Medium-Trial */
+@font-face {
+  font-family: DrukText-Medium-Trial;
+  src: url(./font/DrukText-Medium-Trial.otf);
+}
+
+/* Web Font - Druk-Bold-Trial */
+@font-face {
+  font-family: "Druk-Bold-Trial";
+  src: url(./font/Druk-Bold-Trial.otf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}

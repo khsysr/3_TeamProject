@@ -1,0 +1,49 @@
+@charset "UTF-8";
+:root {
+  --black: #020715;
+  --point_blue: #8dcafb;
+  --point_cyam: #8afefb;
+  --point_yellow: #fff500;
+}
+/* Web Font - 김정철 손글씨 */
+@font-face {
+  font-family: "KimjungchulScript-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulScript-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+/* Web Font - Britanic Bold */
+/* Web Font - Kaushan Script */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* font-family: 'Kaushan Script', cursive; */
+/* Web Font - lUSH HANDWRRITEN */
+@font-face {
+  font-family: "Lush";
+  src: url(./fonts/LushHandwritten-Bold.otf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}

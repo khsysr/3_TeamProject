@@ -1,0 +1,78 @@
+@charset "UTF-8";
+:root {
+  --black: #020715;
+  --point_blue: #8dcafb;
+  --point_cyam: #8afefb;
+  --point_yellow: #fff500;
+  --point_orange: #f3684b;
+}
+
+/* Font Style */
+
+/* Web Font - lUSH HANDWRRITEN */
+@font-face {
+  font-family: "Lush";
+  src: url(fonts/LushHandwritten-Bold.otf);
+}
+
+/* Web Font - Britannic Bold */
+@font-face {
+  font-family: "britannic-bold-regular";
+  src: url(fonts/britannic.TTF);
+}
+
+/* RESET CSS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+body {
+  color: white;
+  background-color: var(--black);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* drag color */
+::selection {
+  background-color: #84a8cf;
+  color: #f3684b;
+}
+
+/* Inner Set-Up */
+.inner {
+  width: 1350px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .inner {
+    width: 100%;
+    padding: 10px;
+  }
+}
