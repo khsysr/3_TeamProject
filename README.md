@@ -4,7 +4,7 @@
 
 <!--<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=capsule%20render&fontSize=90" /> -->
 
-- 배포 URL : https://github.com/khsysr/3_TeamProject.git
+- 배포 URL : https://khsysr.github.io/3_TeamProject/
 - Figma URL: https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB[…]%B8?type=design&node-id=0%3A1&mode=design&t=e3c3yPb9M18gzu2y-1
 
 📆 📅
