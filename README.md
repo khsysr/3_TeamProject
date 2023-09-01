@@ -1,16 +1,15 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkhsysr%2F3_TeamProject&count_bg=%23000000&title_bg=%2334C9EE&icon=reverbnation.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false"/></a>
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&text=WEBSITE%20RENEWAL%20PROJECT%20&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
+
 <!--<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=capsule%20render&fontSize=90" /> -->
 
-- 배포 URL : https://
-- Figma URL:
+- 배포 URL : https://github.com/khsysr/3_TeamProject.git
+- Figma URL: https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB[…]%B8?type=design&node-id=0%3A1&mode=design&t=e3c3yPb9M18gzu2y-1
 
-
-
-
-📆	📅
+📆 📅
 🌊🌴👀💬💦💿💾💣💻🖐🙋
+
 ## 🙋 프로젝트 소개
 
 <br>
@@ -35,16 +34,16 @@
 
 ## ⏰ 타임라인
 
-| Week | 세미나 | 과제 |커리큘럼 내용 |
-| ------ | -- | -- |----------- |
-| 1주차 | ☑️ | ☑️ | iOS 기초, H.I.G를 통한 컴포넌트의 이해, 화면 전환 |
-| 2주차 | ☑️ | ☑️ | Autolayout을 통한 기초 UI구성, Scroll View의 이해 |
-| 3주차 | ☑️ | ☑️ | TableView, CollectionView, 데이터 전달 방식 |
-| 4주차 | ☑️ | ☑️ | Cocoapods & Networking + 솝커톤 전 보충 세미나 |
-| 5주차 |  |  |디자인 합동 세미나 |
-| 6주차 |  |  |서버 합동 세미나 + 솝커톤  |
-| 7주차 |  |  |클론 코딩을 통한 실전 UI 구성, Animation, 통신 보충  |
-| 8주차 |  |  |e기획 경선 + 앱잼 전 보충 세미나 + 앱스토어 배포 가이드  |
+| Week  | 세미나 | 과제 | 커리큘럼 내용                                           |
+| ----- | ------ | ---- | ------------------------------------------------------- |
+| 1주차 | ☑️     | ☑️   | iOS 기초, H.I.G를 통한 컴포넌트의 이해, 화면 전환       |
+| 2주차 | ☑️     | ☑️   | Autolayout을 통한 기초 UI구성, Scroll View의 이해       |
+| 3주차 | ☑️     | ☑️   | TableView, CollectionView, 데이터 전달 방식             |
+| 4주차 | ☑️     | ☑️   | Cocoapods & Networking + 솝커톤 전 보충 세미나          |
+| 5주차 |        |      | 디자인 합동 세미나                                      |
+| 6주차 |        |      | 서버 합동 세미나 + 솝커톤                               |
+| 7주차 |        |      | 클론 코딩을 통한 실전 UI 구성, Animation, 통신 보충     |
+| 8주차 |        |      | e기획 경선 + 앱잼 전 보충 세미나 + 앱스토어 배포 가이드 |
 
 <br>
 
