@@ -1,14 +1,11 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkhsysr%2F3_TeamProject&count_bg=%23000000&title_bg=%2334C9EE&icon=reverbnation.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false"/></a>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&text=WEBSITE%20RENEWAL%20PROJECT%20&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
+![header](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&text=WEBSITE%20RENEWAL%20PROJECT%20&animation=twinkling&fontSize=20&fontAlignY=33&fontAlign=80&height=250&fontColor=d6ace6&desc=%20WATER%20BOMB&descAlignY=55&descAlign=70&descSize=75&rotate=-6
+)
 
-<!--<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=capsule%20render&fontSize=90" /> -->
-
-- 배포 URL : https://khsysr.github.io/3_TeamProject/
-- Figma URL: https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB[…]%B8?type=design&node-id=0%3A1&mode=design&t=e3c3yPb9M18gzu2y-1
-
-📆 📅
-🌊🌴👀💬💦💿💾💣💻🖐🙋
+- 배포 URL :  https://khsysr.github.io/3_TeamProject/
+- 기획서 URL : https://docs.google.com/presentation/d/1si2UPUVSYoXAg-GIhOOEpmwXsEbF6jaaquB5TQ36d9Q/edit?usp=sharing
+- Figma URL : https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB[…]%B8?type=design&node-id=0%3A1&mode=design&t=e3c3yPb9M18gzu2y-1
 
 ## 🙋 프로젝트 소개
 
@@ -34,16 +31,14 @@
 
 ## ⏰ 타임라인
 
-| Week  | 세미나 | 과제 | 커리큘럼 내용                                           |
-| ----- | ------ | ---- | ------------------------------------------------------- |
-| 1주차 | ☑️     | ☑️   | iOS 기초, H.I.G를 통한 컴포넌트의 이해, 화면 전환       |
-| 2주차 | ☑️     | ☑️   | Autolayout을 통한 기초 UI구성, Scroll View의 이해       |
-| 3주차 | ☑️     | ☑️   | TableView, CollectionView, 데이터 전달 방식             |
-| 4주차 | ☑️     | ☑️   | Cocoapods & Networking + 솝커톤 전 보충 세미나          |
-| 5주차 |        |      | 디자인 합동 세미나                                      |
-| 6주차 |        |      | 서버 합동 세미나 + 솝커톤                               |
-| 7주차 |        |      | 클론 코딩을 통한 실전 UI 구성, Animation, 통신 보충     |
-| 8주차 |        |      | e기획 경선 + 앱잼 전 보충 세미나 + 앱스토어 배포 가이드 |
+| Week |   Date  | 내용 |
+| ------ | -- |----------- |
+| 1주차 |  08.01 ~ 08.06  |· 주제 선정 및 기획 회의<br>· 레이아웃 및 와이어 프레임 구성<br>· 스타일 가이드 및 상세 내역 작성<br>· 메인 페이지 디자인 완성(데스크탑)<br>· 메인 페이지 1차 마감 |
+| 2주차 |  08.07 ~ 08.13  |· 메인 페이지 2차 마감|
+| 3주차 |  08.14 ~ 08.20  |· 메인 페이지 디자인 완성 및 구현(반응형)<br>· 메인 페이지 3차 마감  |
+| 4주차 |  08.21 ~ 08.27  |· 서브 페이지 디자인 완성 및 구현(데스크탑)<br>· 서브 페이지 1차 마감 |
+| 5주차 |  08.28 ~ 09.01  |· 서브 페이지 디자인 완성 및 구현(반응형)<br>· 서브 페이지 2차 마감   |
+| 6주차 |  09.02 ~ 09.05  |· 기획서 최종 수정 및 발표|
 
 <br>
 
@@ -77,7 +72,8 @@
 <br>
 <div>
 <h3>Environment</h3>
-<img src="https://img.shields.io/badge/-Windows10-0078D6?style=flat&logo=Windows&logoColor=white"/> 
+<img src="https://img.shields.io/badge/-Windows10-0078D6?style=flat&logo=Windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/-macOS-000000?style=flat&logo=macOS&logoColor=white"/>
 </div>
 <br>
 <div>
@@ -96,10 +92,10 @@
 
 <br>
 
-## 💬 프로젝트 설명
+## 🌟  트러블 슈팅
 
-## 💬 트러블 슈팅
 
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&height=150&section=footer)
 :톱니바퀴: 산출물
 기획서 링크<br>
 피그마 링크<br>
