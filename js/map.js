@@ -12,10 +12,10 @@
     marker.setPosition(e.latlng);
 }); */
 
-/*const position = new naver.maps.LatLng(36.34930768446836, 127.37750117279369);*/
+const position = new naver.maps.LatLng(36.34930768446836, 127.37750117279369);
 //<!-- 그린아트 컴퓨터 학원 경로 -->
 
-/*const map = new naver.maps.Map("map", {
+const map = new naver.maps.Map("map", {
   center: position,
   zoom: 18,
 });
@@ -24,13 +24,7 @@ const markerOptions = {
   //마커 변경
   position: position,
   map: map,
-  /*    icon: {
-        url: './img/pin_default.png',
-        size: new naver.maps.Size(22, 55),
-        origin: new naver.maps.Point(0, 0),
-        anchor: new naver.maps.Point(15, 35)
-    } */
-//};
+};
 /* ************************************************************************ */
 
 const marker = new naver.maps.Marker(markerOptions);
