@@ -135,7 +135,7 @@ menu.close {
   font-size: 14px;
   transition: 550ms;
   /* font-family: DrukText-Medium-Trial; */
-  font-family: "DrukTextWide-Medium-Trial";
+  font-family: 'DrukWide-Medium-Trial';
   /* letter-spacing: 2px; */
 }
 .header_img_saver > ul > li > a > button {
