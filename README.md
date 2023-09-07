@@ -3,7 +3,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=34C9EE&text=WEBSITE%20RENEWAL%20PROJECT%20&animation=twinkling&fontSize=20&fontAlignY=33&fontAlign=80&height=250&fontColor=d6ace6&desc=%20WATER%20BOMB&descAlignY=55&descAlign=70&descSize=75&rotate=-6
 )
 
-- 배포 URL :  https://khsysr.github.io/3_TeamProject/
+- 배포 URL :  https://khsysr.github.io/3_TeamProject
 - 기획서 URL : https://docs.google.com/presentation/d/1si2UPUVSYoXAg-GIhOOEpmwXsEbF6jaaquB5TQ36d9Q/edit?usp=sharing
 - Figma URL : https://www.figma.com/file/XW6ku18pk6lRSt6GmcBVgO/3%EC%A1%B0-%ED%8C%80-%ED%94%84%EB[…]%B8?type=design&node-id=0%3A1&mode=design&t=e3c3yPb9M18gzu2y-1
 
